@@ -10,7 +10,7 @@ export const TiposBasicos = () => {
     return (
         <>
             <h3>Tipos Basicos</h3> 
-            {nombre}, {edad},{ (estaActivo) ? 'activo' : 'no activo'}
+            {nombre}, {edad}, { (estaActivo) ? 'activo' : 'no activo'}
             <br />
             {poderes.join(', ')}
             <br/>
